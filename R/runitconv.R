@@ -1,3 +1,12 @@
+.onAttach <- function(libname, pkgname) {
+  packageStartupMessage(paste0("Don't hesitate to contact me if you ",
+                               "have any question:\n",
+                               "emanuel.huber@pm.me\n\n",
+                               "There is only one function to run in this package:\n",
+                               "runitconv"))
+}
+
+
 
 #' RGPR: A package for processing and visualising ground-penetrating data
 #' radar (GPR) data.
