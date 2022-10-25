@@ -27,6 +27,6 @@
 #' @export
 #'
 #' @return shiny application object
-runitconv <- function() {
-  shinyApp(ui = shinyAppUI, server = shinyAppServer)
+runitconv <- function(...) {
+  shinyApp(ui = shinyAppUI, server = shinyAppServer, ...)
 }
